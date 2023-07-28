@@ -4,6 +4,8 @@
 // Input: 12345
 // Output: Sum of digits: 15
 
+import 'dart:svg';
+
 void main() {
   int b;
   List<int> inPut = [1, 2, 3, 4, 5, 6];
@@ -30,5 +32,5 @@ void main() {
     outPut.add(inPut[b]);
     a++;
   }
-  print(outPut);
+  print(outPut += inPut);
 }
